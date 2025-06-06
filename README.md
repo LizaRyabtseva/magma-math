@@ -14,7 +14,6 @@ used RabbitMQ for message brokering and MongoDB for data storage.
 - Handles notifications
 - Listens to user events from RabbitMQ
 - Sends notifications based on events
-- http://localhost:3001
 
 ## Environment Variables
 
