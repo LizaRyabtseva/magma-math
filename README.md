@@ -14,6 +14,7 @@ used RabbitMQ for message brokering and MongoDB for data storage.
 - Handles notifications
 - Listens to user events from RabbitMQ
 - Sends notifications based on events
+- http://localhost:3001
 
 ## Environment Variables
 
@@ -77,6 +78,8 @@ npm run start:dev
   - Checks MongoDB and RabbitMQ connections
 
 #### User Management
+http://localhost:3000/
+
 - `POST /users`
   - Create a new user
   - Body: `{ name: string, email: string }`
@@ -95,6 +98,9 @@ npm run start:dev
 ### Notification Service
 
 #### Health Check
+
+http://localhost:3001/
+
 - `GET /health`
   - Returns service health status
   - Checks RabbitMQ connection
